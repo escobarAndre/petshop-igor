@@ -2,7 +2,7 @@
 	
 	//Open street  Map
 	var mapcanvas = document.getElementById("map-canvas");
-	var mapcanvas2 = document.getElementById("map-canvas2");
+	var mapcanvas2 = document.getElementById("map-canvas-2");
 
 	if(mapcanvas){
 		//Open street  Map
@@ -26,5 +26,5 @@
 
 		// marker object, pass custom icon as option, add to map         
 		var marker = L.marker(coord, {icon: customIcon}).addTo(map);
-		}
+	}	
 });

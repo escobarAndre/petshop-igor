@@ -912,6 +912,9 @@ Last change:17th february 2021
      border-radius: 20px;
      margin-top: 90px;
 }
+.service-content{
+    min-height: 30rem;
+}
  .serviceBox1 .service-content{
      text-align: center;
      padding: 15px 20px 30px;
@@ -1069,6 +1072,7 @@ Last change:17th february 2021
      text-align:center;
      border-radius:10px;
      padding: 40px 10px 20px 10px;
+     min-height: 21rem;
 }
  .contact-icon .top-icon{
      transition: all .3s ease-out;
